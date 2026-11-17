@@ -1,0 +1,442 @@
+[
+  {
+    "source": "benefits.md",
+    "title": "Employee Benefits Policy",
+    "section": "Benefits Enrollment",
+    "last_updated": "2026-10-15",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "New employees have 30 days from their\nemployment start date to enroll in benefits.\n\nAvailable benefits include medical insurance,\ndental insurance, vision coverage, and\nretirement savings plans.",
+    "token_count": 37
+  },
+  {
+    "source": "benefits.md",
+    "title": "Employee Benefits Policy",
+    "section": "Benefits Questions",
+    "last_updated": "2026-10-15",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees who need assistance with benefits\nenrollment should contact the People Operations\nteam.\n\nThe People Operations team can provide\ninformation about enrollment deadlines and\navailable plans.",
+    "token_count": 33
+  },
+  {
+    "source": "benefits_legacy.md",
+    "title": "Legacy Benefits Enrollment Policy",
+    "section": "Legacy Benefits Enrollment",
+    "last_updated": "2024-01-15",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "This is an outdated policy document retained for evaluation purposes.\n\nThe historical enrollment rule stated that new employees had 60 days from their employment start date to enroll in benefits.\n\nThis document is not the current source of benefits policy.",
+    "token_count": 44
+  },
+  {
+    "source": "benefits_legacy.md",
+    "title": "Legacy Benefits Enrollment Policy",
+    "section": "Legacy Benefits Assistance",
+    "last_updated": "2024-01-15",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees were historically instructed to contact the Benefits Administration team for enrollment questions.",
+    "token_count": 14
+  },
+  {
+    "source": "benefits_update.md",
+    "title": "Benefits Enrollment Update - Test Fixture",
+    "section": "Benefits Enrollment Update",
+    "last_updated": "2026-11-01",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "This is a deliberately conflicting test document.\n\nIt states that new employees have 45 days from their employment start date to enroll in benefits.\n\nThe existing Employee Benefits Policy states a different enrollment deadline.\n\nThis document is intended to test whether the assistant detects conflicting policy sources rather than selecting one answer without qualification.",
+    "token_count": 59
+  },
+  {
+    "source": "benefits_update.md",
+    "title": "Benefits Enrollment Update - Test Fixture",
+    "section": "Benefits Enrollment Questions",
+    "last_updated": "2026-11-01",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees should contact People Operations when they encounter conflicting benefits information.",
+    "token_count": 12
+  },
+  {
+    "source": "code_of_conduct.md",
+    "title": "Workplace Code of Conduct",
+    "section": "Professional Conduct",
+    "last_updated": "2026-10-25",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees are expected to treat coworkers with professionalism and respect.\n\nThe company does not tolerate harassment, discrimination, intimidation, or retaliation in the workplace.",
+    "token_count": 28
+  },
+  {
+    "source": "code_of_conduct.md",
+    "title": "Workplace Code of Conduct",
+    "section": "Reporting Concerns",
+    "last_updated": "2026-10-25",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees who experience or witness inappropriate workplace conduct may report their concerns to People Operations.\n\nEmployees may also use the company's designated reporting channels.",
+    "token_count": 27
+  },
+  {
+    "source": "code_of_conduct.md",
+    "title": "Workplace Code of Conduct",
+    "section": "Confidentiality",
+    "last_updated": "2026-10-25",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Reports involving workplace conduct should be handled carefully. Employees should avoid sharing sensitive details with people who are not involved in handling the concern.",
+    "token_count": 26
+  },
+  {
+    "source": "code_of_conduct.md",
+    "title": "Workplace Code of Conduct",
+    "section": "Immediate Assistance",
+    "last_updated": "2026-10-25",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees who believe they are in immediate danger should contact appropriate emergency services.",
+    "token_count": 14
+  },
+  {
+    "source": "equipment.md",
+    "title": "Equipment Policy",
+    "section": "Equipment Requests",
+    "last_updated": "2026-10-18",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees who need a laptop, monitor, keyboard, or other standard work equipment should submit a request through the IT support portal.",
+    "token_count": 25
+  },
+  {
+    "source": "equipment.md",
+    "title": "Equipment Policy",
+    "section": "Equipment Approval",
+    "last_updated": "2026-10-18",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Equipment requests are reviewed by the IT department. Additional approval may be required for specialized or nonstandard equipment.",
+    "token_count": 21
+  },
+  {
+    "source": "equipment.md",
+    "title": "Equipment Policy",
+    "section": "Damaged Equipment",
+    "last_updated": "2026-10-18",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees should report damaged or malfunctioning company equipment to IT as soon as possible. Employees should not attempt unauthorized hardware repairs.",
+    "token_count": 24
+  },
+  {
+    "source": "expenses.md",
+    "title": "Business Expense Policy",
+    "section": "Eligible Business Expenses",
+    "last_updated": "2026-10-12",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees may request reimbursement for reasonable business expenses incurred while performing approved work activities.\n\nExamples include approved business travel, required work supplies, and authorized business meals.",
+    "token_count": 30
+  },
+  {
+    "source": "expenses.md",
+    "title": "Business Expense Policy",
+    "section": "Expense Submission",
+    "last_updated": "2026-10-12",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees must submit expense reports through the company's expense system.\n\nEach submission should include the transaction date, amount, business purpose, and supporting receipt when available.",
+    "token_count": 31
+  },
+  {
+    "source": "expenses.md",
+    "title": "Business Expense Policy",
+    "section": "Expense Review",
+    "last_updated": "2026-10-12",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Managers review submitted expenses for business purpose and policy compliance. Additional review may be required for unusual or high-value expenses.",
+    "token_count": 24
+  },
+  {
+    "source": "expenses.md",
+    "title": "Business Expense Policy",
+    "section": "Reimbursement Questions",
+    "last_updated": "2026-10-12",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees with questions about reimbursement status should contact the Finance department.",
+    "token_count": 12
+  },
+  {
+    "source": "holidays.md",
+    "title": "Company Holiday Policy",
+    "section": "Company Holidays",
+    "last_updated": "2026-10-10",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "The company publishes its observed holiday schedule before the beginning of each calendar year.\n\nEmployees should consult the official company holiday calendar for specific dates.",
+    "token_count": 27
+  },
+  {
+    "source": "holidays.md",
+    "title": "Company Holiday Policy",
+    "section": "Holiday Scheduling",
+    "last_updated": "2026-10-10",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Some departments may require staffing coverage during observed holidays. Managers are responsible for coordinating coverage with their teams.",
+    "token_count": 20
+  },
+  {
+    "source": "holidays.md",
+    "title": "Company Holiday Policy",
+    "section": "Holiday Questions",
+    "last_updated": "2026-10-10",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees who have questions about holiday scheduling should contact People Operations.",
+    "token_count": 12
+  },
+  {
+    "source": "manager_guidance.md",
+    "title": "Manager Guidance",
+    "section": "Performance Management",
+    "last_updated": "2026-10-15",
+    "audience": "managers",
+    "region": "US",
+    "text": "Managers should document employee performance concerns\nand follow the company's established review process.",
+    "token_count": 17
+  },
+  {
+    "source": "manager_guidance.md",
+    "title": "Manager Guidance",
+    "section": "Team Management",
+    "last_updated": "2026-10-15",
+    "audience": "managers",
+    "region": "US",
+    "text": "Managers are responsible for reviewing team PTO requests\nand coordinating staffing coverage.",
+    "token_count": 16
+  },
+  {
+    "source": "onboarding.md",
+    "title": "New Employee Onboarding Policy",
+    "section": "First Day Responsibilities",
+    "last_updated": "2026-10-22",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "New employees should review their welcome materials and confirm that they can access the company's required systems.\n\nEmployees should contact their manager if they have not received their initial schedule or onboarding instructions.",
+    "token_count": 37
+  },
+  {
+    "source": "onboarding.md",
+    "title": "New Employee Onboarding Policy",
+    "section": "Required Accounts",
+    "last_updated": "2026-10-22",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "New employees may need access to email, collaboration tools, internal documentation, and role-specific applications.\n\nAccess requests should be submitted through the appropriate IT process. Managers are responsible for identifying the systems required for each employee's role.",
+    "token_count": 44
+  },
+  {
+    "source": "onboarding.md",
+    "title": "New Employee Onboarding Policy",
+    "section": "Initial Training",
+    "last_updated": "2026-10-22",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "New employees should complete assigned orientation and security training.\n\nTraining assignments may vary depending on the employee's department and responsibilities.",
+    "token_count": 23
+  },
+  {
+    "source": "onboarding.md",
+    "title": "New Employee Onboarding Policy",
+    "section": "Manager Responsibilities",
+    "last_updated": "2026-10-22",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Managers should introduce new employees to their team and explain the employee's initial responsibilities.\n\nManagers should identify a colleague who can help answer routine questions during the employee's first weeks.",
+    "token_count": 36
+  },
+  {
+    "source": "onboarding.md",
+    "title": "New Employee Onboarding Policy",
+    "section": "First Week Check-In",
+    "last_updated": "2026-10-22",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Managers should schedule an initial check-in during the employee's first week.\n\nThe discussion should cover access to required tools, initial responsibilities, and any obstacles affecting the employee's ability to begin work.",
+    "token_count": 39
+  },
+  {
+    "source": "onboarding.md",
+    "title": "New Employee Onboarding Policy",
+    "section": "Thirty-Day Check-In",
+    "last_updated": "2026-10-22",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Managers should review the employee's progress during the first month.\n\nThe conversation may cover training progress, role expectations, and questions about team processes.",
+    "token_count": 29
+  },
+  {
+    "source": "onboarding.md",
+    "title": "New Employee Onboarding Policy",
+    "section": "Onboarding Assistance",
+    "last_updated": "2026-10-22",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees who need help with onboarding should first contact their manager.\n\nQuestions involving account access or technical problems should be directed to IT support.\n\nQuestions about benefits, employment policies, or workplace procedures should be directed to People Operations.",
+    "token_count": 44
+  },
+  {
+    "source": "onboarding.md",
+    "title": "New Employee Onboarding Policy",
+    "section": "Onboarding Records",
+    "last_updated": "2026-10-22",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Managers should confirm that required onboarding activities have been completed.\n\nEmployees should follow instructions provided by their department for submitting required onboarding documentation.",
+    "token_count": 28
+  },
+  {
+    "source": "onboarding.md",
+    "title": "New Employee Onboarding Policy",
+    "section": "Remote Employee Onboarding",
+    "last_updated": "2026-10-22",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Remote employees receive onboarding instructions electronically.\n\nManagers should confirm that remote employees can access required systems and know how to contact their team.",
+    "token_count": 27
+  },
+  {
+    "source": "onboarding.md",
+    "title": "New Employee Onboarding Policy",
+    "section": "Onboarding Feedback",
+    "last_updated": "2026-10-22",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees may provide feedback about their onboarding experience to People Operations.\n\nFeedback can identify missing documentation, access problems, or areas where instructions could be clearer.",
+    "token_count": 30
+  },
+  {
+    "source": "pto.md",
+    "title": "Paid Time Off Policy",
+    "section": "Paid Time Off",
+    "last_updated": "2026-10-01",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Full-time employees receive 20 days of paid\ntime off annually.\n\nPTO accrues monthly throughout the calendar\nyear. Employees may request time off through\nthe company's HR portal.",
+    "token_count": 38
+  },
+  {
+    "source": "pto.md",
+    "title": "Paid Time Off Policy",
+    "section": "PTO Approval",
+    "last_updated": "2026-10-01",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees should submit PTO requests at least\ntwo weeks before their intended leave.\n\nManagers are responsible for reviewing requests\nwithin three business days.\n\nApproval depends on staffing requirements\nand business operations.",
+    "token_count": 39
+  },
+  {
+    "source": "remote_work.md",
+    "title": "Remote Work Policy",
+    "section": "Remote Work Eligibility",
+    "last_updated": "2026-10-20",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees may request remote work arrangements through their manager. Approval depends on job responsibilities, team needs, and operational requirements.",
+    "token_count": 23
+  },
+  {
+    "source": "remote_work.md",
+    "title": "Remote Work Policy",
+    "section": "Remote Work Expectations",
+    "last_updated": "2026-10-20",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees working remotely are expected to remain available during their agreed working hours and attend scheduled team meetings.\n\nEmployees must protect company information when working outside the office. Confidential documents should not be left visible to unauthorized individuals.",
+    "token_count": 41
+  },
+  {
+    "source": "remote_work.md",
+    "title": "Remote Work Policy",
+    "section": "Remote Work Equipment",
+    "last_updated": "2026-10-20",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees should contact IT for assistance with company-issued equipment used for remote work.",
+    "token_count": 16
+  },
+  {
+    "source": "security_training.md",
+    "title": "Security Awareness Training Policy",
+    "section": "Required Security Training",
+    "last_updated": "2026-10-19",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees must complete security awareness training assigned by the company.\n\nTraining may cover phishing, password protection, safe handling of company information, and reporting suspicious activity.",
+    "token_count": 30
+  },
+  {
+    "source": "security_training.md",
+    "title": "Security Awareness Training Policy",
+    "section": "Phishing Reports",
+    "last_updated": "2026-10-19",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees who receive a suspicious email should report it using the company's designated security reporting process.\n\nEmployees should avoid opening unexpected attachments or entering credentials into unfamiliar websites.",
+    "token_count": 31
+  },
+  {
+    "source": "security_training.md",
+    "title": "Security Awareness Training Policy",
+    "section": "Training Assistance",
+    "last_updated": "2026-10-19",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees who cannot access assigned training should contact IT support.",
+    "token_count": 11
+  },
+  {
+    "source": "travel_policy.md",
+    "title": "Business Travel Policy",
+    "section": "Travel Approval",
+    "last_updated": "2026-10-14",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees must receive manager approval before arranging business travel.\n\nTravel requests should explain the business purpose, destination, expected dates, and estimated expenses.",
+    "token_count": 27
+  },
+  {
+    "source": "travel_policy.md",
+    "title": "Business Travel Policy",
+    "section": "Travel Reservations",
+    "last_updated": "2026-10-14",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees should follow company travel procedures when booking transportation and accommodations.",
+    "token_count": 12
+  },
+  {
+    "source": "travel_policy.md",
+    "title": "Business Travel Policy",
+    "section": "Travel Expenses",
+    "last_updated": "2026-10-14",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Approved business travel expenses may be submitted through the company's expense system.\n\nEmployees should retain receipts and provide the business purpose for submitted expenses.",
+    "token_count": 27
+  },
+  {
+    "source": "travel_policy.md",
+    "title": "Business Travel Policy",
+    "section": "Travel Assistance",
+    "last_updated": "2026-10-14",
+    "audience": "all_employees",
+    "region": "US",
+    "text": "Employees with questions about travel approval should contact their manager. Questions about reimbursement should be directed to Finance.",
+    "token_count": 20
+  }
+]

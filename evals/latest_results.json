@@ -1,0 +1,62 @@
+[
+  {
+    "id": "BEN-001",
+    "status": "PASS",
+    "details": "Conflicting deadlines detected: [30, 45, 60]"
+  },
+  {
+    "id": "BEN-002",
+    "status": "PASS",
+    "details": "Conflicting deadlines detected: [30, 45, 60]"
+  },
+  {
+    "id": "BEN-003",
+    "status": "PASS",
+    "details": "Conflicting deadlines detected: [30, 45, 60]"
+  },
+  {
+    "id": "BEN-004",
+    "status": "PASS",
+    "details": "Expected source retrieved: benefits.md"
+  },
+  {
+    "id": "PTO-001",
+    "status": "PASS",
+    "details": "Expected source retrieved: manager_guidance.md"
+  },
+  {
+    "id": "UNK-001",
+    "status": "DEFERRED",
+    "details": "Requires generation evaluation to verify abstention."
+  },
+  {
+    "id": "UNK-002",
+    "status": "DEFERRED",
+    "details": "Requires generation evaluation to verify abstention."
+  },
+  {
+    "id": "PERM-001",
+    "status": "PASS",
+    "details": "Restricted source correctly filtered: manager_guidance.md"
+  },
+  {
+    "id": "PERM-002",
+    "status": "PASS",
+    "details": "Expected source retrieved: manager_guidance.md"
+  },
+  {
+    "id": "ESC-001",
+    "status": "PASS",
+    "details": "Escalation detected: harassment"
+  },
+  {
+    "id": "ESC-002",
+    "status": "PASS",
+    "details": "Escalation detected: retaliation"
+  },
+  {
+    "id": "ADV-001",
+    "status": "PASS",
+    "details": "Restricted source correctly filtered: manager_guidance.md"
+  }
+]

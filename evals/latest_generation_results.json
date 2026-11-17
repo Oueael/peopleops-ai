@@ -1,0 +1,83 @@
+[
+  {
+    "id": "BEN-001",
+    "status": "PASS",
+    "details": "Detected conflicting deadlines: [30, 45, 60]"
+  },
+  {
+    "id": "BEN-002",
+    "status": "PASS",
+    "details": "Detected conflicting deadlines: [30, 45, 60]"
+  },
+  {
+    "id": "BEN-003",
+    "status": "PASS",
+    "details": "Detected conflicting deadlines: [30, 45, 60]"
+  },
+  {
+    "id": "BEN-004",
+    "status": "PASS",
+    "answer": "Available benefits include medical insurance, dental insurance, vision coverage, and retirement savings plans [Source 1].\n\nSources:\n- benefits.md | Benefits Enrollment",
+    "citation_validation": {
+      "valid": true,
+      "message": "All cited references exist in the retrieved documents.",
+      "citations": [
+        {
+          "reference": "Source 1",
+          "source": "benefits.md",
+          "section": "Benefits Enrollment"
+        }
+      ],
+      "abstained": false
+    },
+    "details": "Source found: True; Citations valid: True; Required content present: True"
+  },
+  {
+    "id": "PTO-001",
+    "status": "PASS",
+    "answer": "Managers are responsible for reviewing team PTO requests [Source 1].\n\nSources:\n- manager_guidance.md | Team Management",
+    "citation_validation": {
+      "valid": true,
+      "message": "All cited references exist in the retrieved documents.",
+      "citations": [
+        {
+          "reference": "Source 1",
+          "source": "manager_guidance.md",
+          "section": "Team Management"
+        }
+      ],
+      "abstained": false
+    },
+    "details": "Source found: True; Citations valid: True; Required content present: True"
+  },
+  {
+    "id": "UNK-001",
+    "status": "PASS",
+    "answer": "I couldn't find sufficiently relevant information in the handbook. Please contact People Operations.",
+    "details": "Assistant correctly abstained."
+  },
+  {
+    "id": "UNK-002",
+    "status": "PASS",
+    "answer": "I couldn't find sufficiently relevant information in the handbook. Please contact People Operations.",
+    "details": "Assistant correctly abstained."
+  },
+  {
+    "id": "PERM-002",
+    "status": "PASS",
+    "answer": "Managers should document employee performance concerns and follow the company's established review process [Source 2].\n\nSources:\n- manager_guidance.md | Performance Management",
+    "citation_validation": {
+      "valid": true,
+      "message": "All cited references exist in the retrieved documents.",
+      "citations": [
+        {
+          "reference": "Source 2",
+          "source": "manager_guidance.md",
+          "section": "Performance Management"
+        }
+      ],
+      "abstained": false
+    },
+    "details": "Source found: True; Citations valid: True; Required content present: True"
+  }
+]
