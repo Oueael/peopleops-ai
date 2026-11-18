@@ -20,7 +20,8 @@ All handbook content is synthetic. This is a portfolio prototype, not a producti
                            v
                        Slack Bot
                            |
-                    Receive Mention
+                           v
+                     Receive Mention
                            |
                            v
                     Background Worker
@@ -28,35 +29,36 @@ All handbook content is synthetic. This is a portfolio prototype, not a producti
                            v
                   Sensitive Topic Check
                            |
-                +----------+----------+
-                |                     |
-             Escalate              Continue
-                |                     |
-                v                     v
-          Safe DM Reply        Identify User Role
-                |                     |
-                v                     v
-         Notify Private HR     Authorized Retrieval
-             Channel                  |
-                                      v
-                               PostgreSQL
-                                 pgvector
-                                      |
-                                      v
-                                  Gemini
-                                      |
-                                      v
+                 +---------+---------+
+                 |                   |
+              Escalate            Continue
+                 |                   |
+                 v                   v
+           Safe DM Reply       Identify User Role
+                 |                   |
+                 v                   v
+          Notify Private HR   Authorized Retrieval
+              Channel                |
+                                     v
+                                 PostgreSQL
+                                  pgvector
+                                     |
+                                     v
+                                   Gemini
+                                     |
+                                     v
                              Citation Validation
-                                      |
-                                      v
-                            Add Readable Sources
-                                      |
-                                      v
-                               Private Slack DM
-                                      |
+                                     |
+                                     v
+                             Add Readable Sources
+                                     |
+                                     v
+                              Private Slack DM
+                                     |
+                                     v
                                Feedback Buttons
-                                      |
-                                      v
+                                     |
+                                     v
                                 Audit Logging
 ```
 
@@ -154,7 +156,7 @@ Slack users can rate ordinary answers using Helpful and Not helpful buttons. Fee
 
 The project includes a small evaluation set covering answerable questions, unsupported questions, role permissions, escalation, policy conflicts, and adversarial access-control checks.
 
-Latest results:
+### Latest Results
 
 | Evaluation | Passed | Failed | Deferred |
 |---|---:|---:|---:|
@@ -168,6 +170,7 @@ Run the evaluations from the project root:
 ```powershell
 python -m evals.run_evals
 python -m evals.run_generation_evals
+```
 
 Results are saved under `evals/`.
 
@@ -209,9 +212,10 @@ Use your actual local database credentials and Slack configuration. Never commit
 
 ### Setup
 
-Activate the virtual environment:
+Create and activate a virtual environment:
 
 ```powershell
+python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
@@ -219,6 +223,12 @@ Install project dependencies:
 
 ```powershell
 pip install -r requirements.txt
+```
+
+Start the PostgreSQL container:
+
+```powershell
+docker compose up -d
 ```
 
 Initialize the database:
@@ -278,22 +288,27 @@ This prototype has not undergone a formal security review. Keyword-based escalat
 ```text
 peopleops-ai/
 ├── app/
+│   ├── __init__.py
 │   ├── main.py
 │   ├── slack_bot.py
 │   └── user_roles.py
 ├── data/
 │   ├── handbook/
-│   ├── chunks.json
-│
+│   └── chunks.json
 ├── docs/
 │   └── decision-log.md
 ├── evals/
+│   ├── __init__.py
 │   ├── cases.json
+│   ├── latest_generation_results.json
+│   ├── latest_results.json
 │   ├── run_evals.py
 │   └── run_generation_evals.py
 ├── policy/
+│   ├── __init__.py
 │   └── escalation.py
 ├── rag/
+│   ├── __init__.py
 │   ├── audit.py
 │   ├── citations.py
 │   ├── database.py
@@ -306,7 +321,9 @@ peopleops-ai/
 │   ├── search.py
 │   └── store.py
 ├── tests/
+│   └── __init__.py
 ├── tools/
+│   └── __init__.py
 ├── docker-compose.yml
 ├── requirements.txt
 ├── README.md
